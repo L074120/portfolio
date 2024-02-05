@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Yusei+Magic&display=swap');
+
+:root{ 
+    --cor-one: rgb(0,0,0);
+    --cor-two: rgb(185,30,185);
+    --cor-three: rgb(225,225,225);
+    --fonte-one: 'Yusei Magic', sans-serif;
+    --fonte-two: 'Bangers', system-ui;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    /* height: 100vh; */
+    box-sizing: border-box;
+    background-color: var(--cor-one);
+    color: var(--cor-three);
+}
+a {
+    color: DodgerBlue;
+
+}
+
+.apresentacao {
+    padding: 6% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 82px;
+}
+
+.cabecalho{
+    padding: 2% 0% 0% 15%;
+}
+
+.cabecalho__menu{
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho__menu__link{
+    font-family: var(--fonte-one);
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--cor-two);
+    text-decoration: none;
+}
+
+.cabecalho__menu__link:hover{
+    color: rgb(255, 41, 255)
+}
+
+.apresentacao__conteudo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.apresentacao__conteudo__titulo {
+    font-size: 2.25rem;
+    font-family: var(--fonte-two);
+}
+
+.titulo-destaque { 
+    color: var(--cor-two);
+}
+
+.apresentacao__conteudo__texto{
+    font-size: 1.5rem;
+    font-family: var(--fonte-one);
+}
+
+.apresentacao__links__subtitulo{
+    font-family: var(--fonte-two);
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.apresentacao__links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.apresentacao__links__navegacao {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    border: 2px solid var(--cor-two);
+    width: 50%;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 1.5rem;
+    padding: 21.5px 0px;
+    text-decoration: none;
+    color:var(--cor-three);
+    font-family: var(--fonte-one);
+}
+
+
+
+.apresentacao__links__link:hover{
+    background-color: #272727;
+} 
+
+.minha{
+    width: 35%;
+    border-radius: 10px;
+}
+
+.rodape{
+    color:var(--cor-three);
+    background-color: var(--cor-two);
+    margin: 0px;
+    padding: 25px;
+    font-size: 1.5rem;
+    font-family: var(--fonte-one);
+    font-weight: 400;
+    text-align: center;
+}
+
+
+.apresentation{
+    padding: 6.1% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.conteudo__sobreMim{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.conteudo__sobreMim__titulo {
+    font-size: 2.5rem;
+    font-family: var(--fonte-one);
+}
+
+.conteudo__intro {
+    font-size: 1.5rem;
+    font-family: var(--fonte-one);
+}
+
+@media (max-width: 1200px) {
+    .cabecalho {
+        padding: 8%;
+    }
+
+    .cabecalho__menu{
+        justify-content: center;
+    }
+
+    .apresentacao, .apresentation {
+        flex-direction: column-reverse;
+        padding: 6%;
+    }
+
+    .apresentacao__conteudo {
+    width: auto;
+    }
+}
