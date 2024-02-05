@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Yusei+Magic&display=swap');
 
 :root{ 
-    --cor-one: rgb(0,0,0);
-    --cor-two: rgb(185,30,185);
-    --cor-three: rgb(225,225,225);
+    --cor-one: #000000;
+    --cor-two: #0007c9;
+    --cor-three: #f2f2f2;
     --fonte-one: 'Yusei Magic', sans-serif;
     --fonte-two: 'Bangers', system-ui;
 }
@@ -50,7 +50,7 @@ a {
 }
 
 .cabecalho__menu__link:hover{
-    color: rgb(255, 41, 255)
+    color: #030bff;
 }
 
 .apresentacao__conteudo{
@@ -110,7 +110,7 @@ a {
 } 
 
 .minha{
-    width: 35%;
+    width: 45%;
     border-radius: 10px;
 }
 
