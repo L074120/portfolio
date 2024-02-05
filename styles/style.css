@@ -131,10 +131,11 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 40px;
 }
 
 .conteudo__sobreMim{
-    width: 615px;
+    width: auto;
     display: flex;
     flex-direction: column;
     gap: 40px;
