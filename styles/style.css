@@ -43,7 +43,7 @@ a {
 
 .cabecalho__menu__link{
     font-family: var(--fonte-one);
-    font-size: 1.5rem;
+    font-size: 0.8rem;
     font-weight: 600;
     color: var(--cor-two);
     text-decoration: none;
