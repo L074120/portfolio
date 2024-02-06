@@ -116,13 +116,17 @@ a {
     color:var(--cor-three);
     background-color: var(--cor-two);
     margin: 0px;
-    padding: 25px;
+    padding: 10px;
     font-size: 1.5rem;
     font-family: var(--fonte-one);
     font-weight: 400;
     text-align: center;
 }
 
+.fixar{
+    display: flex;
+    justify-content: center;
+}
 
 .apresentation{
     padding: 6.1% 15%;
@@ -191,7 +195,10 @@ a {
 }
 
 .xmen {
-    width: 90%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 @media (max-width: 1200px) {
@@ -203,12 +210,20 @@ a {
         justify-content: center;
     }
 
-    .apresentacao, .apresentation, .apresentando{
+    .apresentacao, .apresentation{
         flex-direction: column-reverse;
         padding: 6%;
     }
 
+    .apresentando{
+        padding: 10%;
+    }
+
     .apresentacao__conteudo {
     width: auto;
+    }
+
+    .rodape{
+    
     }
 }
