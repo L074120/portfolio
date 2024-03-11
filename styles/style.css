@@ -116,7 +116,7 @@ a {
     color:var(--cor-three);
     background-color: var(--cor-two);
     margin: 0px;
-    padding: 10px;
+    padding: 0px;
     font-size: 1.5rem;
     font-family: var(--fonte-one);
     font-weight: 400;
