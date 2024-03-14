@@ -6,6 +6,7 @@
     --cor-three: #f2f2f2;
     --fonte-one: 'Yusei Magic', sans-serif;
     --fonte-two: 'Bangers', system-ui;
+    --sla-sla: #ffffff;
 }
 
 * {
@@ -16,7 +17,7 @@
 body {
     /* height: 100vh; */
     box-sizing: border-box;
-    background-color: var(--cor-one);
+    background-color: var(--sla-sla);
     color: var(--cor-three);
 }
 a {
